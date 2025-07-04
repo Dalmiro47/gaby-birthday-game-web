@@ -29,16 +29,6 @@ export const CORRECT_ANSWER_AUDIO_URLS: string[] = [
 
 export const RIDDLES: RiddleGift[] = [
   {
-    id: "lego1",
-    riddle: "Soy un reguero de fichitas de colores, que si las juntas con maña, armas desde casas hasta tractores. ¿Qué soy, pa' que juegues horas y horas, mi Gaby bella?",
-    answer: "lego",
-    giftName: "¡Un Set de Lego pa' la Arquitecta de la Casa!",
-    giftDescription: "¡Ahora sí, a construir tus sueños bloque por bloque, mi reina! ¡Qué nota!",
-    giftImageUrl: LEGO_IMAGE_URL,
-    isLego: true,
-    from: "Dalmi",
-  },
-  {
     id: "perfume1",
     riddle: "Vengo en frasquito elegante y con solo un poquito, hueles más sabroso que sancocho en fogón de leña. ¿Qué soy, mi solecito?",
     answer: "perfume",
@@ -56,6 +46,16 @@ export const RIDDLES: RiddleGift[] = [
     giftImageUrl: WATCH_IMAGE_URL,
     isLego: false,
     from: "Valeria y Jorge"
+  },
+  {
+    id: "patagonia1",
+    riddle: "Mesa pa' dos, velitas y un plato bien sabroso. Es una noche pa' nosotros, puro goce y alborozo. ¿Qué lugar es ese, mi vida?",
+    answer: "Patagonia",
+    giftName: "¡Una Cena Espectacular en Patagonia!",
+    giftDescription: "¡Pa' que disfrutes de los sabores de la Patagonia, mi amor! ¡Una experiencia única con la mejor carne!",
+    giftImageUrl: PATAGONIA_VOUCHER_IMAGE_URL,
+    isLego: false,
+    from: "Dalmi",
   },
   {
     id: "pijama1",
@@ -78,13 +78,13 @@ export const RIDDLES: RiddleGift[] = [
     from: "Franco (tu sobri)",
   },
   {
-    id: "patagonia1",
-    riddle: "Mesa pa' dos, velitas y un plato bien sabroso. Es una noche pa' nosotros, puro goce y alborozo. ¿Qué lugar es ese, mi vida?",
-    answer: "Patagonia",
-    giftName: "¡Una Cena Espectacular en Patagonia!",
-    giftDescription: "¡Pa' que disfrutes de los sabores de la Patagonia, mi amor! ¡Una experiencia única con la mejor carne!",
-    giftImageUrl: PATAGONIA_VOUCHER_IMAGE_URL,
-    isLego: false,
+    id: "lego1",
+    riddle: "Soy un reguero de fichitas de colores, que si las juntas con maña, armas desde casas hasta tractores. ¿Qué soy, pa' que juegues horas y horas, mi Gaby bella?",
+    answer: "lego",
+    giftName: "¡Un Set de Lego pa' la Arquitecta de la Casa!",
+    giftDescription: "¡Ahora sí, a construir tus sueños bloque por bloque, mi reina! ¡Qué nota!",
+    giftImageUrl: LEGO_IMAGE_URL,
+    isLego: true,
     from: "Dalmi",
   },
 ];
